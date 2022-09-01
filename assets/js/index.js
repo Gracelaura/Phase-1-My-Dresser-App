@@ -1,7 +1,9 @@
 function myFunction() {
+    let dropdown = 
+
     document.getElementById("myDropdown").classList.toggle("show");
 }
-function myFunction() {
+function myFunction2() {
     document.getElementById("myForm").submit();
   }
 

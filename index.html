@@ -20,6 +20,7 @@
                      <li>Chic Outfit</li>
                      <li>Casual Outfit</li>
                      <li> Rockstar Outfit</li>
+                     <li>Comments</li>
                 </ol>
             </div>
         </div>
@@ -77,9 +78,14 @@
 
         <div id="commentsjs">
             <form id="myForm" action="#">
-                 Add comments: <input type="text" name="comment"><br>
-                 <input type="button" onclick="myFunction()" value="Submit form">
+                 <label for="comments">Add comments:<br></label><br>
+                 <input type="text" id="comments" name="comment"><br><br>
+                 <input type="button" onclick="myFunction2()" value="Submit comment">
             </form>  
+        </div>
+
+        <div id="comments-display">
+
         </div>
     </main>    
 
