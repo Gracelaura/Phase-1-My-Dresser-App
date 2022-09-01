@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div>
+    <div class="dresser">
         <h1>MY DRESSER</h1>
     </div>
     <main class="container">
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Available Categories:</button>
             <div id="myDropdown" class="dropdown-content">
-                <ol>
+                <ol id="list">
                      <li>Swanky Outfit</li>
                      <li>Chic Outfit</li>
                      <li>Casual Outfit</li>
@@ -28,7 +28,7 @@
 
             <p>Get an idea of what to get yourself next time you go shopping here.</p>
 
-            <div class="alloutfits">
+            <div class="alloutfitsjs">
                 <div class="outfits">
                     <div>
                         <img src="assets/images/swanky1.jpeg" alt="Swanky outfit 1" class="swankyimage">
@@ -74,9 +74,16 @@
                 </div>
             </div>
         </div>
+
+        <div id="commentsjs">
+            <form id="myForm" action="#">
+                 Add comments: <input type="text" name="comment"><br>
+                 <input type="button" onclick="myFunction()" value="Submit form">
+            </form>  
+        </div>
     </main>    
 
       
-
+<script src="assets/js/index.js"></script>
 </body>
 </html>
