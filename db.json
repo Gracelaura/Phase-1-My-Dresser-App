@@ -1,0 +1,32 @@
+{
+    "outfits": [
+        {
+          "id": 1,
+          "categories": "Swanky Outfit",
+          "image1": "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/sonam-kapoor-ahuja-black-dresses-stand-test-of-time-fashion.jpeg",
+          "image2": "https://previews.123rf.com/images/maximleshkovich/maximleshkovich1612/maximleshkovich161200436/67720726-woman-trendy-fashion-clothes-collage-on-white-flat-lay-top-view.jpg",
+          "description": "Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse"
+        },
+        {
+          "id": 2,
+          "categories": "Chic Outfit",
+          "image1": "https://images.squarespace-cdn.com/content/v1/511585b3e4b0b8b2ffe19dc6/1541872212248-AWXJ5MT3U3O13NCJ9SSK/thanksgiving+outfits.jpeg",
+          "image2": "https://images.squarespace-cdn.com/content/v1/511585b3e4b0b8b2ffe19dc6/1575492596237-3FGF6MP4BIDE8IBS8IFK/cover.jpeg?format=1000w",
+          "description": "Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse"
+        },
+        {
+          "id": 3,
+          "categories": "Casual Outfit",
+          "image1": "https://mrscasual.com/wp-content/uploads/2021/10/cozy-wrap-Fall-outfit.jpeg",
+          "image2": "https://i.pinimg.com/736x/fd/fb/a0/fdfba094e030d82b0dc517ce24b22303.jpg",
+          "description": "Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse"  
+        },
+        {
+            "id": 4,
+            "categories": "Rockstar Outfit",
+            "image1": "https://i.pinimg.com/originals/b0/5d/77/b05d770735c14dd000c0067bc4ce91fd.jpg",
+            "image2": "https://i.pinimg.com/originals/8e/70/d5/8e70d54ea507e6a6dfd8346ee7aeb317.jpg",
+            "description": "Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse"  
+          }
+      ]
+}
