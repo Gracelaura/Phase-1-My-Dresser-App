@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Dresser</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/411ebeb880.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="dresser">
@@ -55,9 +61,9 @@
 
                 <div class="outfits">
                     <div>
-                        <img src="assets/images/casual1.jpeg" alt="Casual outfit 1" class="casualimage"
+                        <img alt="Casual outfit 1" class="casualimage"
                         id="casual-outfit">
-                        <img src="assets/images/casual2.jpg" alt="Casual outfit 2" class="casualimage"
+                        <img alt="Casual outfit 2" class="casualimage"
                         id="casual-outfit2">
                     </div>
                     <div class="casualcontent">
@@ -68,8 +74,8 @@
 
                 <div class="outfits">
                     <div>
-                        <img src="assets/images/rockstar1.jpg" alt="Rockstar outfit 1" id="rockstar-outfit">
-                        <img src="assets/images/rockstar2.jpeg" alt="Rockstar outfit 2" id="rockstar-outfit2">
+                        <img alt="Rockstar outfit 1" id="rockstar-outfit">
+                        <img alt="Rockstar outfit 2" id="rockstar-outfit2">
                     </div>
                     <div class="rockstarcontent">
                         <h3>Rockstar Outfit</h3>
@@ -83,7 +89,7 @@
             <form id="myForm" action="#">
                  <label for="comments">Add comments:<br></label><br>
                  <input type="text" id="comments" name="comment"><br><br>
-                 <input type="button" onclick="myFunction2()" value="Submit comment">
+                 <input type="button" id="submit" onclick="myFunction2()" value="Submit comment">
             </form>  
         </div>
 
