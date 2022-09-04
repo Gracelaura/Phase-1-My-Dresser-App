@@ -23,6 +23,16 @@ window.addEventListener("DOMContentLoaded", () => {
       categoryShow.style.display = "none";
     }else{
       categoryShow.style.display = "block";
-    }
+
+      let showBanner = document.getElementById("showBanner");
+      if (categoryShow.style.display == "none") {
+        showBanner.style.display = "block";
+      }else {
+        showBanner.style.display = "none";
+      }
+      }
+    });
+
+    fetch("")
   })
 })
