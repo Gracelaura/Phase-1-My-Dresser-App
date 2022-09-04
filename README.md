@@ -5,7 +5,7 @@
 MY DRESSER APP is a web interface that displays a pre-designed category of outfits for ladies to get an idea of what that particular outfit entails. 
 
 ## Table of Content
-- [Title](#MY DRESSER APP)
+- [Title](#MY-DRESSER-APP)
 - [Technologies](#Built-With)
 - [Description](#Description)
 - [Getting Started](#Getting-Started)
