@@ -27,9 +27,7 @@ window.addEventListener("DOMContentLoaded", () => {
       let showBanner = document.getElementById("showBanner");
       if (categoryShow.style.display == "none") {
         showBanner.style.display = "block";
-      } else {
-        showBanner.style.display = "none";
-      }
+      } 
     }
   });
 
@@ -41,26 +39,22 @@ window.addEventListener("DOMContentLoaded", () => {
       document.getElementById("swanky-title").textContent = data[0].category;
       document.getElementById("swanky-outfit").src = data[0].image1;
       document.getElementById("swanky-outfit2").src = data[0].image2;
-      document.getElementById("swanky-description").textContent =
-        data[0].description;
+      document.getElementById("swanky-description").textContent = data[0].description;
 
       document.getElementById("chic-title").textContent = data[1].category;
       document.getElementById("chic-outfit").src = data[1].image1;
       document.getElementById("chic-outfit2").src = data[1].image2;
-      document.getElementById("chic-description").textContent =
-        data[1].description;
+      document.getElementById("chic-description").textContent = data[1].description;
 
       document.getElementById("casual-title").textContent = data[2].category;
       document.getElementById("casual-outfit").src = data[2].image1;
       document.getElementById("casual-outfit2").src = data[2].image2;
-      document.getElementById("casual-description").textContent =
-        data[2].description;
+      document.getElementById("casual-description").textContent = data[2].description;
 
       document.getElementById("rockstar-title").textContent = data[3].category;
       document.getElementById("rockstar-outfit").src = data[3].image1;
       document.getElementById("rockstar-outfit2").src = data[3].image2;
-      document.getElementById("rockstar-description").textContent =
-        data[3].description;
+      document.getElementById("rockstar-description").textContent = data[3].description;
     });
 });
 
