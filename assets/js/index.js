@@ -33,6 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    fetch("")
+    fetch("http://localhost:3000/outfits")
+    
   })
 })
