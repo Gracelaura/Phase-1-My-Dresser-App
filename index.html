@@ -18,21 +18,10 @@
     <main class="container">
         <div class="dropdown">
             <button onclick="dropDown()" class="dropbtn">Available Categories:</button>
-            <div id="myDropdown" class="dropdown-content">
-                <ol id="list">
-                     <li>Swanky Outfit</li>
-                     <li>Chic Outfit</li>
-                     <li>Casual Outfit</li>
-                     <li> Rockstar Outfit</li>
-                     <a href="#comments-display"><li>Comments</li></a>
-                </ol>
-            </div>
         </div>
-
+        <p id="showBanner">Click Available Categories to display</p>    
+       
         <div id="catergoriesjs">
-
-            <p>Get an idea of what to get yourself next time you go shopping here.</p>
-
             <div class="alloutfitsjs">
                 <div class="outfits">
                     <div>
@@ -40,8 +29,9 @@
                         <img  alt="Swanky outfit 2" class="swankyimage2" id="swanky-outfit2" title="">
                     </div>
                     <div class="swankycontent" id="1">
-                        <h3>Swanky Outfit</h3>
-                        <p>If you want to go for very expensive and fashionable attire, in a way that is intended to attract people's attention and admiration, then swanky is the way to go.Simply achieve this by keeping things polished with clean lines, polished accessories and neat hair and makeup.</p>
+                        <!--ON A SUCCESSFUL FETCH, THE H3 AND P WILL BE REPLACED-->
+                        <h3 id=Swanky-title>Outfit Title</h3>
+                        <p id="swanky-description">Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse.</p>
                     </div>
                 </div>
 
@@ -51,8 +41,9 @@
                         <img alt="Chic outfit 2" class="chicimage" id="chic-outfit2" title="">
                     </div>
                     <div class="chiccontent">
-                        <h3>Chic Outfit</h3>
-                        <p>Interested in keeping up with current trends in an elegant, smart and sophisticated manner? Go chic. Chic fashion style is often marked by luxurious fabrics that elevate your closet to new levels. They are lasting, classic and will be dependable staple pieces in your wardrobe for years to come. Think of chic style as an uncomplicated look put together with little or no effort.  Pull off this look by: embracing the classics, master layering(A Chic fashion style is often marked by luxurious fabrics that elevate a woman's closet to new levels. They are lasting, classic and will be dependable staple pieces in your wardrobe for years to come. Think of chic style as an uncomplicated look put together with little or no effort.), don't be matchy and finally go easy on hair styling and makeup.</p>
+                        <!--ON A SUCCESSFUL FETCH, THE H3 AND P WILL BE REPLACED-->
+                        <h3 id="chic-title">Outfit Title</h3>
+                        <p id="chic-description">Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse.</p>
                     </div>
                 </div>
 
@@ -62,8 +53,9 @@
                         <img alt="Casual outfit 2" class="casualimage" title="" id="casual-outfit2" title="">
                     </div>
                     <div class="casualcontent">
-                        <h3>Casual Outfit</h3>
-                        <p></p>
+                        <!--ON A SUCCESSFUL FETCH, THE H3 AND P WILL BE REPLACED-->
+                        <h3 id="casual-title">Outfit Title</h3>
+                        <p id="casual-description">Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse.</p>
                     </div>
                 </div>
 
@@ -73,8 +65,9 @@
                         <img alt="Rockstar outfit 2" id="rockstar-outfit2" title="">
                     </div>
                     <div class="rockstarcontent">
-                        <h3>Rockstar Outfit</h3>
-                        <p>Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse.</p>
+                        <!--ON A SUCCESSFUL FETCH, THE H3 AND P WILL BE REPLACED-->
+                        <h3 id="rockstar-title">Outfit Title</h3>
+                        <p id="rockstar-description">Lorem ipsum dolor sit amet. In eaque reprehenderit non illum sunt ea excepturi consequatur non quaerat quia. Qui necessitatibus minima et aspernatur ipsum ea reiciendis quia qui deleniti voluptatem et quaerat fugit. Eum quia esse ab rerum numquam non veniam nihil aut ipsum soluta id asperiores dolorum ut nihil esse.</p>
                     </div>
                 </div>
             </div>
@@ -83,8 +76,8 @@
         <div id="commentsjs">
             <form id="myForm" action="#">
                  <label for="comments">Add comments:<br></label><br>
-                 <input type="text" id="comments" name="comment"><br><br>
-                 <input type="button" id="submit" onclick="myFunction2()" value="Submit comment">
+                 <input type="text" id="inputComment" name="comment"><br><br>
+                 <input type="submit" id="submitButton" value="Submit comment">
             </form>  
         </div>
 
