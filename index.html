@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Akaya+Kanadaka&family=Allura&display=swap" rel="stylesheet">
 </head>
-<body>
     <div class="dresser">
         <h1>MY DRESSER</h1>
         <p>Get an idea of what to get yourself next time you go shopping here.</p>
@@ -20,7 +19,7 @@
             <button onclick="dropDown()" class="dropbtn">Available Categories:</button>
             
         </div>
-        <p id="showBanner">Click Available Categories to display</p>
+        <p id="showBanner">Click Available Categories to display outfits.</p>
         <div id="catergoriesjs">         
 
             <div class="alloutfitsjs">
@@ -38,7 +37,7 @@
 
                 <div class="outfits">
                     <div>
-                        <img alt="Chic outfit 1" class="chicimage" id="chic-outfit" title="">
+                        <img alt="Chic outfit 1" class="chicimage" id="chic-outfit" title="layering">
                         <img alt="Chic outfit 2" class="chicimage" id="chic-outfit2" title="">
                     </div>
                     <div class="chiccontent">
@@ -73,18 +72,19 @@
                 </div>
             </div>
         </div>
+        <div class="comments-section">
+            <div id="commentsjs">
+                <form id="myForm" action="#">
+                     <label for="comments"> Add comments:<br></label><br>
+                     <input type="text" id="inputComment" name="comment" placeholder="Leave a comment"><br><br>
+                     <input type="submit" id="submitButton" value="Submit comment">
+                </form>  
+            </div>
+            <div id="comments-display">
 
-        <div id="commentsjs">
-            <form id="myForm" action="#">
-                 <label for="comments">Add comments:<br></label><br>
-                 <input type="text" id="inputComment" name="comment"><br><br>
-                 <input type="submit" id="submitButton" value="Submit comment">
-            </form>  
+            </div>
         </div>
-
-        <div id="comments-display">
-
-        </div>
+        
     </main>    
       
 <script src="assets/js/index.js"></script>
