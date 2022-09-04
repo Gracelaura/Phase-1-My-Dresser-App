@@ -51,7 +51,7 @@ Clone the project using these links depending on your local environment:
 - If json-server is not running, the images will not be displayed and the descriptions will be unintelligible text.
 
 ### Deployment
-[Link to deployed work]()
+[Link to deployed work](https://gracelaura.github.io/Phase-1-My-Dresser-App/)
 
 
 
@@ -60,7 +60,7 @@ Clone the project using these links depending on your local environment:
 👤 **Grace Laura**
 
 - GitHub: [@Gracelaura)
-- Twitter: [@gracenj72116969](https://twitter.com/incognito_098)
+- Twitter: [@gracenj72116969](https://twitter.com/gracenj72116969)
 
 ## 📝 License
 
