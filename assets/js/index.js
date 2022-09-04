@@ -10,6 +10,19 @@ window.addEventListener("DOMContentLoaded", () => {
       let li = document.createElement("li");
       li.textContent = inputComment;
       let displayedComment = document.querySelector("#comments-displayed");
+
+      displayedComment.appendChild("li");
+      li.style.listStyle = "none";
+      myForm.reset();
+    }
+  });
+
+  document.querySelector(".dropbtn").addEventListener("click", (e) => {
+    let categoryShow = document.querySelector("#categoryjs");
+    if (categoryShow.style.display == "block") {
+      categoryShow.style.display = "none";
+    }else{
+      categoryShow.style.display = "block";
     }
   })
 })
