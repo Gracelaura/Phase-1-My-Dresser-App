@@ -7,6 +7,25 @@ body{
   font-family: 'Akaya Kanadaka', cursive;
   background-color: black;
 }
+.wrapper {
+  height: 9rem;
+  display: block;
+  overflow-y: hidden;
+}
+.text {
+  color: deeppink;
+  position: relative;
+  font-size: 5rem;
+  animation: slide-up 1.5s;
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(5rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .dresser{
     display: flex;
     justify-content: center;
