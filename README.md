@@ -59,7 +59,7 @@ Clone the project using these links depending on your local environment:
 
 👤 **Grace Laura**
 
-- GitHub: [@Gracelaura)
+- GitHub: [@Gracelaura]
 - Twitter: [@gracenj72116969](https://twitter.com/gracenj72116969)
 
 ## 📝 License
